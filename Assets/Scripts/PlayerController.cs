@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Start() {
 		count = 0;
+		winText.text = "";
 		SetCountText();
 		rb = GetComponent<Rigidbody>();
 	}
